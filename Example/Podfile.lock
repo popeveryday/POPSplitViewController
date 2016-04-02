@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - POPLib (0.1.67):
+    - MBProgressHUD (~> 0.9)
+  - POPSplitViewController (0.1.1):
+    - POPLib (~> 0.1)
+
+DEPENDENCIES:
+  - POPSplitViewController (from `../`)
+
+EXTERNAL SOURCES:
+  POPSplitViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  POPLib: 0dfb7d52e98eb706a269c13640f5063e2bac4f59
+  POPSplitViewController: 4b3ad8704b20586c98330fc09fcb9c5dc2f2ddef
+
+COCOAPODS: 0.39.0

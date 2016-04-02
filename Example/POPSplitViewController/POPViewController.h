@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface POPViewController : UIViewController
+#import <POPSplitViewController/POPSplitViewController.h>
+
+@interface POPViewController : POPSplitViewController
 
 @end

@@ -1,0 +1,6 @@
+framework module POPSplitViewController {
+  umbrella header "POPSplitViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

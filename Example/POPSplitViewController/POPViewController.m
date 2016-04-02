@@ -7,6 +7,10 @@
 //
 
 #import "POPViewController.h"
+#import "MasterVC.h"
+#import "DetailVC.h"
+
+#define iPadDevice     UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 
 @interface POPViewController ()
 
@@ -17,7 +21,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+}
+
+-(void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+    if (iPadDevice) {
+        self.masterWidth = 320;
+        [self buildMasterDetailWithMasterView:[MasterVC new] detailView:[DetailVC new]];
+    }else{
+        UINavigationController *navigationController=[[UINavigationController alloc] initWithRootViewController:[MasterVC new]];
+        [[UIApplication sharedApplication].keyWindow setRootViewController:navigationController];
+    }
 }
 
 - (void)didReceiveMemoryWarning
