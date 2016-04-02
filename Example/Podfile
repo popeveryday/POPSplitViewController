@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'POPSplitViewController_Example', :exclusive => true do
+  pod 'POPSplitViewController', :path => '../'
+end
+
+target 'POPSplitViewController_Tests', :exclusive => true do
+  pod 'POPSplitViewController', :path => '../'
+
+  
+end
