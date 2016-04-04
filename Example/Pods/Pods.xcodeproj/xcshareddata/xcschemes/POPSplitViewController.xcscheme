@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CDCEE31E37B72C4282181741'
+               BlueprintIdentifier = 'F05224C2CD528E0A03E688A0'
                BlueprintName = 'POPSplitViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'POPSplitViewController.framework'>

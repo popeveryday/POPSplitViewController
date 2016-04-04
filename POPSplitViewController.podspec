@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "POPSplitViewController"
-s.version          = "0.1.1"
+s.version          = "0.1.11"
 s.summary          = "POPSplitViewController is cutom view controller support real split display for Object-c project."
 s.homepage         = "https://github.com/popeveryday/POPSplitViewController"
 s.license          = 'MIT'
@@ -9,5 +9,4 @@ s.source           = { :git => "https://github.com/popeveryday/POPSplitViewContr
 s.platform     = :ios, '7.1'
 s.requires_arc = true
 s.source_files = 'Pod/Classes/**/*.{h,m,c}'
-s.dependency 'POPLib', '~> 0.1'
 end

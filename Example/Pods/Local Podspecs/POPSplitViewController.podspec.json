@@ -15,10 +15,5 @@
     "ios": "7.1"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*.{h,m,c}",
-  "dependencies": {
-    "POPLib": [
-      "~> 0.1"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*.{h,m,c}"
 }

@@ -84,12 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-POPSplitViewController_Tests/MBProgressHUD.framework"
-  install_framework "Pods-POPSplitViewController_Tests/POPLib.framework"
   install_framework "Pods-POPSplitViewController_Tests/POPSplitViewController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-POPSplitViewController_Tests/MBProgressHUD.framework"
-  install_framework "Pods-POPSplitViewController_Tests/POPLib.framework"
   install_framework "Pods-POPSplitViewController_Tests/POPSplitViewController.framework"
 fi
